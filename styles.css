@@ -1,5 +1,6 @@
 body, html{
   height:100%;
+  background-image: url("http://static.wixstatic.com/media/d6ac3e_52f457adf70c30fa2854fad62032f348.jpg_1024");
 }
 body{
   margin: 0px;
@@ -15,13 +16,22 @@ body, a:link, a:visited, a:active{
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: #0000FF;
 }
 .title{
   background-color: #777;
 }
-.dancer{
+.dancer {
   border:10px solid red;
   border-radius:10px;
   position:absolute;
 }
+
+.img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+<img src="https://www.clipartmax.com/png/middle/264-2640349_mulan-clip-art-2-disney-clip-art-galore-rh-disneyclips-disney-princess.png" alt="Mulan">
