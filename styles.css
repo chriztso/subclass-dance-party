@@ -27,6 +27,12 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 
+.dancer1 {
+  border:10px solid black;
+  border-radius:10px;
+  position:absolute;
+}
+
 .img {
   border: 1px solid #ddd;
   border-radius: 4px;
