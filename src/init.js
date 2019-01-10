@@ -32,7 +32,11 @@ $(document).ready(function() {
     $('body').append(dancer.$node);
 
   });
-
+ 
+  $('.LineUp').on('click', function(event) {
+    //$(".movable").animate();
+    alert('Hi');
+  });
 
 });
 

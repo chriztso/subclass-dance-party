@@ -1,6 +1,6 @@
 body, html{
   height:100%;
-  background-image: url("http://static.wixstatic.com/media/d6ac3e_52f457adf70c30fa2854fad62032f348.jpg_1024");
+  background-image: url("https://i.imgur.com/he59pzK.png");
 }
 body{
   margin: 0px;
@@ -10,13 +10,13 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .LineUp{
   padding:5px 12px;
-  float:right;
+  float:left;
 }
 .topbar{
   height:32px;
-  background-color: #0000FF;
+  background-color: #708090;
 }
 .title{
   background-color: #777;
@@ -28,8 +28,14 @@ body, a:link, a:visited, a:active{
 }
 
 .dancer1 {
-  border:10px solid black;
-  border-radius:10px;
+  width: 60px;
+  height: 60px;
+  position:absolute;
+}
+
+.dancer2 {
+  width: 60px;
+  height: 60px;
   position:absolute;
 }
 
@@ -40,4 +46,3 @@ body, a:link, a:visited, a:active{
   width: 150px;
 }
 
-<img src="https://www.clipartmax.com/png/middle/264-2640349_mulan-clip-art-2-disney-clip-art-galore-rh-disneyclips-disney-princess.png" alt="Mulan">
