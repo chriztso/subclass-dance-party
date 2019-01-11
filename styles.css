@@ -21,28 +21,40 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
+
 .dancer {
-  border:10px solid red;
-  border-radius:10px;
+/*  border:10px solid red;
+*//*border-radius:10px;*/
+  width: 30px;
+  height: 30px;
+  position:absolute;
+  content: url("http://images.clipartpanda.com/bombing-clipart-explosion3.png");
+
+/*  width: 10px;
+  height: 10px;
+  position:absolute;*/
+}
+
+.explosion {
+  /*border:10px solid red;
+*/border-radius:10px;
   position:absolute;
 }
 
-.dancer1 {
-  width: 60px;
-  height: 60px;
+.ShanYu {
+  width: 50px;
+  height: 50px;
   position:absolute;
+  content: url("https://vignette.wikia.nocookie.net/ammondisney/images/1/17/Shan_Yu.gif/revision/latest?cb=20100712105033");
+
 }
 
-.dancer2 {
-  width: 60px;
-  height: 60px;
+.Mulan {
+  width: 30px;
+  height: 30px;
   position:absolute;
+  content: url("https://www.disneyclips.com/imagesnewb/images/mulan3.png");
+
 }
 
-.img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
 

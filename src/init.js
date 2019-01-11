@@ -16,6 +16,10 @@ $(document).ready(function() {
      * A new object of the given type will be created and added
      * to the stage.
      */
+
+
+
+
     var dancerMakerFunctionName = $(this).data('dancer-maker-function-name');
 
     // get the maker function for the kind of dancer we're supposed to make
@@ -28,24 +32,27 @@ $(document).ready(function() {
       $("body").width() * Math.random(),
       Math.random() * 1000
     );
+    
 
+    window.dancers.push(dancer);
     $('body').append(dancer.$node);
 
+    $('.ShanYu').mouseover(function(){
+      //$(this).fadeOut(10, function() { return alert("he is gone now"); });
+      $(this).fadeOut('slow');
+      console.log(this);
+    });
+
   });
+
  
   $('.LineUp').on('click', function(event) {
-
-    $(".dancer2 .movable").animate({
-      left: 0
-    });
-
-    $(".dancer1, .movable").animate({
-      right: 1140
-    });
-    // for (var i = 0; i < window.dancers.length; i++) {
-    //   window.dancers[i].setPositionToLeft(); 
-    
+    for(var i = 0; i < window.dancers.length; i++) {
+      window.dancers[i].lineUp();
+    }
   });
+
+
 
 });
 
