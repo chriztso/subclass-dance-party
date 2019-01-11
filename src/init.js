@@ -34,8 +34,17 @@ $(document).ready(function() {
   });
  
   $('.LineUp').on('click', function(event) {
-    //$(".movable").animate();
-    alert('Hi');
+
+    $(".dancer2 .movable").animate({
+      left: 0
+    });
+
+    $(".dancer1, .movable").animate({
+      right: 1140
+    });
+    // for (var i = 0; i < window.dancers.length; i++) {
+    //   window.dancers[i].setPositionToLeft(); 
+    
   });
 
 });
